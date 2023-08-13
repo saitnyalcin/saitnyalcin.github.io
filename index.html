@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
-<title>SAIT N YALCIN PERSONAL WEBSITE</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
+  <title>SAIT N YALCIN PERSONAL WEBSITE</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Montserrat"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <style>
     body,
     h1,
     h2,
@@ -14,184 +20,271 @@
     h4,
     h5,
     h6 {
-        font-family: "Montserrat", sans-serif
+      font-family: "Montserrat", sans-serif;
     }
 
     .w3-row-padding img {
-        margin-bottom: 12px
+      margin-bottom: 12px;
     }
 
     /* Set the width of the sidebar to 120px */
     .w3-sidebar {
-        width: 120px;
-        background: #222;
-        text-decoration: none;
+      width: 120px;
+      background: #222;
+      text-decoration: none;
     }
 
     /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
     #main {
-        margin-left: 120px
+      margin-left: 120px;
     }
 
     /* Remove margins from "page content" on small screens */
     @media only screen and (max-width: 600px) {
-        #main {
-            margin-left: 0
-        }
+      #main {
+        margin-left: 0;
+      }
     }
-</style>
+  </style>
 
-<body class="w3-black">
-
+  <body class="w3-black">
     <!-- Icon Bar (Sidebar - hidden on small screens) -->
-    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-black">
-        <!-- Avatar image in top left corner -->
-        <img src="./assets/avatar_smoke.png" style="width:100%">
-        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-red">
-            <i class="fa fa-home w3-large"></i>
-            <p>HOME</p>
-        </a>
-        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-orange">
-            <i class="fa fa-user w3-large"></i>
-            <p>ABOUT</p>
-        </a>
-        <a href="#skills" class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-yellow">
-            <i class="fa fa-tasks w3-large"></i>
-            <p>SKILLS</p>
-        </a>
-        <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-green">
-            <i class="fa fa-suitcase w3-large"></i>
-            <p>APPLICATIONS</p>
-        </a>
-        <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-blue">
+    <nav
+      class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-black"
+    >
+      <!-- Avatar image in top left corner -->
+      <img src="./assets/avatar_smoke.png" style="width: 100%" />
+      <a
+        href="#"
+        class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-red"
+      >
+        <i class="fa fa-home w3-large"></i>
+        <p>HOME</p>
+      </a>
+      <a
+        href="#about"
+        class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-orange"
+      >
+        <i class="fa fa-user w3-large"></i>
+        <p>ABOUT</p>
+      </a>
+      <a
+        href="#skills"
+        class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-yellow"
+      >
+        <i class="fa fa-tasks w3-large"></i>
+        <p>TECK STACK</p>
+      </a>
+      <a
+        href="#projects"
+        class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-green"
+      >
+        <i class="fa fa-suitcase w3-large"></i>
+        <p>APPLICATIONS</p>
+      </a>
+      <!-- <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-blue">
             <i class="fa fa-eye w3-large"></i>
             <p>GAMES</p>
-        </a>
-        <a href="#articles" class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-blue">
-            <i class="fa fa-pencil w3-large"></i>
-            <p>ARTICLES</p>
-        </a>
-        <a href="#patents" class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-blue">
-            <i class="fa fa-file-text w3-large"></i>
-            <p>PATENTS</p>
-        </a>
-        <a href="#books" class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-blue">
-            <i class="fa fa-book w3-large"></i>
-            <p>BOOKS</p>
-        </a>
-        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-purple">
-            <i class="fa fa-envelope w3-large"></i>
-            <p>CONTACT</p>
-        </a>
+        </a> -->
+      <a
+        href="#articles"
+        class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-blue"
+      >
+        <i class="fa fa-pencil w3-large"></i>
+        <p>ARTICLES</p>
+      </a>
+      <!-- <a
+        href="#patents"
+        class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-blue"
+      >
+        <i class="fa fa-file-text w3-large"></i>
+        <p>PATENTS</p>
+      </a> -->
+      <!-- <a
+        href="#books"
+        class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-blue"
+      >
+        <i class="fa fa-book w3-large"></i>
+        <p>BOOKS</p>
+      </a> -->
+      <a
+        href="#contact"
+        class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-purple"
+      >
+        <i class="fa fa-envelope w3-large"></i>
+        <p>CONTACT</p>
+      </a>
     </nav>
 
     <!-- Navbar on small screens (Hidden on medium and large screens) -->
     <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-            <a href="#skills" class="w3-bar-item w3-button" style="width:25% !important">SKILLS</a>
-            <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">APPLICATIONS</a>
-            <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">GAMES</a>
-            <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">ARTICLES</a>
-            <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PATENTS</a>
-            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
-        </div>
+      <div
+        class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small"
+      >
+        <a href="#" class="w3-bar-item w3-button" style="width: 25% !important"
+          >HOME</a
+        >
+        <a
+          href="#about"
+          class="w3-bar-item w3-button"
+          style="width: 25% !important"
+          >ABOUT</a
+        >
+        <a
+          href="#skills"
+          class="w3-bar-item w3-button"
+          style="width: 25% !important"
+          >TECH STACK</a
+        >
+        <a
+          href="#photos"
+          class="w3-bar-item w3-button"
+          style="width: 25% !important"
+          >ARTICLES</a
+        >
+        <a
+          href="#photos"
+          class="w3-bar-item w3-button"
+          style="width: 25% !important"
+          >PATENTS</a
+        >
+        <a
+          href="#contact"
+          class="w3-bar-item w3-button"
+          style="width: 25% !important"
+          >CONTACT</a
+        >
+      </div>
     </div>
 
     <!-- Page Content -->
     <div class="w3-padding-large" id="main">
-        <!-- Header/Home -->
-        <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-            <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> SAIT N.</h1>
-            <p>SOL Designer & Developer</p>
-            <img src="./assets/dev.png" style="height:250px;width:250px" alt="boy" class="w3-image">
-        </header>
+      <!-- Header/Home -->
+      <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+        <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> SAIT N.</h1>
+        <p>SOL Designer & Developer</p>
+        <img
+          src="./assets/dev.png"
+          style="height: 250px; width: 250px"
+          alt="boy"
+          class="w3-image"
+        />
+      </header>
 
-        <!-- About Section -->
-        <div class="w3-justify w3-text-grey" id="about">
-            <h2 class="w3-text-light-grey">Who am I</h2>
-            <hr style="width:200px" class="w3-opacity">
-            <p>Innovative application developer with dedicated experience in building, integrating, testing,
-                and maintaining
-                mobile and web applications for smart devices. Well-informed and solid understanding of User Experience,
-                Software
-                Development Life Cycle, and Agile Methodologies. Proactively approaches common challenges by promoting
-                best
-                practices in design patterns and coding standards while actively seeking ways to improve business
-                software processes and
-                interactions. Self-motivated individual inspired in designing the capabilities of new features,
-                collaborating with crossfunctional
-                teams, testing code, fixing bugs, and improving application efficiency in a broad range of industries.
+      <!-- About Section -->
+      <div class="w3-justify w3-text-grey" id="about">
+        <h2 class="w3-text-light-grey">Who am I</h2>
+        <hr style="width: 200px" class="w3-opacity" />
+        <p>
+          Innovative application developer with dedicated experience in
+          building, integrating, testing, and maintaining mobile and web
+          applications for smart devices. Well-informed and solid understanding
+          of User Experience, Software Development Life Cycle, and Agile
+          Methodologies. Proactively approaches common challenges by promoting
+          best practices in design patterns and coding standards while actively
+          seeking ways to improve business software processes and interactions.
+          Self-motivated individual inspired in designing the capabilities of
+          new features, collaborating with crossfunctional teams, testing code,
+          fixing bugs, and improving application efficiency in a broad range of
+          industries.
+        </p>
+      </div>
+
+      <!-- Skills Section -->
+      <div class="w3-justify w3-text-grey" id="skills">
+        <h3 class="w3-padding-16 w3-text-light-grey">Tech Stack</h3>
+        <hr style="width: 200px" class="w3-opacity" />
+        <p class="w3-wide">HTML</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height: 28px; width: 100%"></div>
+        </div>
+        <p class="w3-wide">CSS</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height: 28px; width: 97%"></div>
+        </div>
+        <p class="w3-wide">JavaScript</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height: 28px; width: 93%"></div>
+        </div>
+        <p class="w3-wide">TypeScript</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height: 28px; width: 91%"></div>
+        </div>
+        <p class="w3-wide">React</p>
+        <div class="w3-white">
+          <div class="w3-dark-grey" style="height: 28px; width: 89%"></div>
+        </div>
+      </div>
+
+      <!-- Portfolio Section -->
+      <h2 class="w3-padding-16 w3-text-light-grey" id="projects">
+        Featured Apps
+      </h2>
+      <hr style="width: 200px" class="w3-opacity" />
+      <!-- First Projects Grid-->
+      <div class="w3-row-padding">
+        <div class="w3-third w3-container w3-margin-bottom">
+          <a
+            href="https://saitnyalcin.github.io/react-formula1-api/"
+            target="_blank"
+            ><img
+              src="./assets/formula.jpg"
+              alt="Formula"
+              style="width: 100%"
+              class="w3-hover-opacity"
+          /></a>
+          <div class="w3-container w3-white">
+            <p><b>Michael Schumacher Tribute 🏎 🏁</b></p>
+            <p>
+              Michael Schumacher is the only driver in history to win seven
+              Formula One World Championships, five of which he won
+              consecutively.
             </p>
+          </div>
         </div>
-
-        <!-- Skills Section -->
-        <div class="w3-justify w3-text-grey" id="skills">
-            <h3 class="w3-padding-16 w3-text-light-grey">Tech Stack</h3>
-            <hr style="width:200px" class="w3-opacity">
-            <p class="w3-wide">Programming [Python, ML, AI, Data Analysis]</p>
-            <div class="w3-white">
-                <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-            </div>
-            <p class="w3-wide">Game Design [Theming, mechanics]</p>
-            <div class="w3-white">
-                <div class="w3-dark-grey" style="height:28px;width:85%"></div>
-            </div>
-            <p class="w3-wide">Web Development [HTML, CSS, JS, React]</p>
-            <div class="w3-white">
-                <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-            </div>
-            <p class="w3-wide">Figma [concept design, flow diagram, wireframe]</p>
-            <div class="w3-white">
-                <div class="w3-dark-grey" style="height:28px;width:75%"></div>
-            </div>
-            <p class="w3-wide">Spline [3D animation, design, scene creation]</p>
-            <div class="w3-white">
-                <div class="w3-dark-grey" style="height:28px;width:70%"></div>
-            </div><br>
+        <div class="w3-third w3-container w3-margin-bottom">
+          <a
+            href="https://saitnyalcin.github.io/react-spacex-api/"
+            target="_blank"
+            ><img
+              src="./assets/space.jpg"
+              alt="Space"
+              style="width: 100%"
+              class="w3-hover-opacity"
+          /></a>
+          <div class="w3-container w3-white">
+            <p><b>Space X 🚀</b></p>
+            <p>
+              Space X is an American spacecraft manufacturer, space launch
+              provider, and a satellite communications corporation.
+            </p>
+          </div>
         </div>
-
-        <!-- Portfolio Section -->
-        <h2 class="w3-padding-16 w3-text-light-grey" id="projects">Featured Apps</h2>
-        <hr style="width:200px" class="w3-opacity">
-        <!-- First Projects Grid-->
-        <div class="w3-row-padding">
-            <div class="w3-third w3-container w3-margin-bottom">
-                <a href="https://saitnyalcin.github.io/react-formula1-api/" target="_blank"><img
-                        src="./assets/formula.jpg" alt="Formula" style="width:100%" class="w3-hover-opacity"></a>
-                <div class="w3-container w3-white">
-                    <p><b>Michael Schumacher Tribute 🏎 🏁</b></p>
-                    <p>Michael Schumacher is the only driver in history to win seven Formula One World
-                        Championships, five of which he won consecutively.</p>
-                </div>
-            </div>
-            <div class="w3-third w3-container w3-margin-bottom">
-                <a href="https://saitnyalcin.github.io/react-spacex-api/" target="_blank"><img src="./assets/space.jpg"
-                        alt="Space" style="width:100%" class="w3-hover-opacity"></a>
-                <div class="w3-container w3-white">
-                    <p><b>Space X 🚀</b></p>
-                    <p>Space X is an American spacecraft manufacturer, space launch
-                        provider, and a satellite communications corporation.
-                    </p>
-                </div>
-            </div>
-            <div class="w3-third w3-container">
-                <a href="https://saitnyalcin.github.io/react-harry-potter-api/" target="_blank"><img
-                        src="./assets/potter.png" alt="Harry Potter" style="width:100%" class="w3-hover-opacity"></a>
-                <div class="w3-container w3-white">
-                    <p><b>Harry Potter 🧙‍♀️</b></p>
-                    <p>Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The
-                        novels chronicle the lives of a young wizard.</p>
-                </div>
-            </div>
+        <div class="w3-third w3-container">
+          <a
+            href="https://saitnyalcin.github.io/react-harry-potter-api/"
+            target="_blank"
+            ><img
+              src="./assets/potter.png"
+              alt="Harry Potter"
+              style="width: 100%"
+              class="w3-hover-opacity"
+          /></a>
+          <div class="w3-container w3-white">
+            <p><b>Harry Potter 🧙‍♀️</b></p>
+            <p>
+              Harry Potter is a series of seven fantasy novels written by
+              British author J. K. Rowling. The novels chronicle the lives of a
+              young wizard.
+            </p>
+          </div>
         </div>
+      </div>
 
-        <div class="w3-padding-64" id="photos">
+      <!-- <div class="w3-padding-64" id="photos">
             <h2 class="w3-text-light-grey">Featured Games</h2>
             <hr style="width:200px" class="w3-opacity">
 
-            <!-- Grid for games -->
             <div class="w3-row-padding">
                 <div class="w3-third w3-container w3-margin-bottom">
                     <a href="https://saitnyalcin.github.io/react-formula1-api/" target="_blank"><img
@@ -224,16 +317,14 @@
                     </div>
                 </div>
             </div>
-            <!-- End Portfolio Section -->
-        </div>
+        </div> -->
 
-
-        <div class="w3-padding-64" id="articles">
-            <h2 class="w3-text-light-grey">Articles</h2>
-            <hr style="width:200px" class="w3-opacity">
-            Coming soon
-            <!-- Grid for games -->
-            <!-- <div class="w3-row-padding">
+      <div class="w3-padding-64" id="articles">
+        <h2 class="w3-text-light-grey">Articles</h2>
+        <hr style="width: 200px" class="w3-opacity" />
+        Coming soon
+        <!-- Grid for games -->
+        <!-- <div class="w3-row-padding">
                 <div class="w3-third w3-container w3-margin-bottom">
                     <a href="https://saitnyalcin.github.io/react-formula1-api/" target="_blank"><img
                             src="https://www.pngkey.com/png/detail/377-3775615_ce3-hd-wallpaper-01-cry-engine.png" alt="Formula" style="width:100%;"
@@ -265,90 +356,18 @@
                     </div>
                 </div>
             </div> -->
-            <!-- End Portfolio Section -->
-        </div>
-        
-        
-        <div class="w3-padding-64" id="patents">
-            <h2 class="w3-text-light-grey">Patents</h2>
-            <hr style="width:200px" class="w3-opacity">
-            Coming soon
-            <!-- Grid for games -->
-            <!-- <div class="w3-row-padding">
-                <div class="w3-third w3-container w3-margin-bottom">
-                    <a href="https://saitnyalcin.github.io/react-formula1-api/" target="_blank"><img
-                            src="https://www.pngkey.com/png/detail/377-3775615_ce3-hd-wallpaper-01-cry-engine.png" alt="Formula" style="width:100%;"
-                            class="w3-hover-opacity"></a>
-                    <div class="w3-container w3-white">
-                        <p><b>Lorem ipsum</b></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua</p>
-                    </div>
-                </div>
-                <div class="w3-third w3-container w3-margin-bottom">
-                    <a href="https://saitnyalcin.github.io/react-spacex-api/" target="_blank"><img
-                            src="https://www.pngkey.com/png/detail/377-3775615_ce3-hd-wallpaper-01-cry-engine.png" alt="Space" style="width:100%;"
-                            class="w3-hover-opacity"></a>
-                    <div class="w3-container w3-white">
-                        <p><b>Lorem ipsum</b></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua</p>
-                    </div>
-                </div>
-                <div class="w3-third w3-container">
-                    <a href="https://saitnyalcin.github.io/react-harry-potter-api/" target="_blank"><img
-                            src="https://www.pngkey.com/png/detail/377-3775615_ce3-hd-wallpaper-01-cry-engine.png" alt="Harry Potter" style="width:100%;"
-                            class="w3-hover-opacity"></a>
-                    <div class="w3-container w3-white">
-                        <p><b>Lorem ipsum</b></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua</p>
-                    </div>
-                </div>
-            </div> -->
-            <!-- End Portfolio Section -->
-        </div>
+        <!-- End Portfolio Section -->
+      </div>
+      <!-- Footer -->
+      <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-medium">Windsor ON CA N8Y 3W7 2023</p>
+        <!-- End footer -->
+      </footer>
 
-        <!-- Contact Section -->
-        <div class="w3-padding-64" id="contact">
-            <h2 class="w3-text-light-grey">Contact Me</h2>
-            <hr style="width:200px" class="w3-opacity">
-
-            <div class="w3-section">
-                <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Windsor ON</p>
-                <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +1 226 *** ****</p>
-                <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email:
-                    s********@gmail.com
-                </p>
-            </div><br>
-            <p>Let's get in touch. Send me a message:</p>
-
-            <form action="#" target="_blank">
-                <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-                <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-                <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-                <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-                <p>
-                    <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
-                    </button>
-                </p>
-            </form>
-            <!-- End Contact Section -->
-        </div>
-
-        <!-- Footer -->
-        <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-twitter w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
-            <p class="w3-medium">Powered by dreams.css</p>
-            <!-- End footer -->
-        </footer>
-
-        <!-- END PAGE CONTENT -->
+      <!-- END PAGE CONTENT -->
     </div>
-
-</body>
-
+  </body>
 </html>
